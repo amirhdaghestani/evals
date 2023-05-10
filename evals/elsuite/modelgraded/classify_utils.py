@@ -25,6 +25,7 @@ Reasoning:""".strip(),
 
 推論：
     """.strip(),
+    "cot_classify_pr": "ابتدا با چاپ یک گزینه از {choices} (بدون نقل قول یا نقطه گذاری) متناسب با پاسخ صحیح، پاسخ دهید. سپس از خط بعدی، گام به گام استدلال های خود را توضیح دهید.".strip(),
 }
 MATCH_FNS = {
     "include": lambda x, y: float(x in y),
